@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jTextFieldpickUpDate" min="-2" pref="63" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPickUpTime" min="-2" pref="55" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldDeliveryDate" min="-2" pref="63" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldDeliveryTime" min="-2" pref="55" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jComboBoxCountry3" min="-2" pref="121" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonInsertOrder" min="-2" pref="111" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldpickUpDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldPickUpTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDeliveryDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDeliveryTime" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxCountry3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="153" max="32767" attributes="0"/>
+              <Component id="jButtonInsertOrder" min="-2" pref="38" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel7" alignment="0" min="-2" max="-2" attributes="0"/>
+              <Component id="jPanel9" alignment="0" min="-2" max="-2" attributes="0"/>
+              <Component id="jPanel10" alignment="0" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Pick-up address"/>
+              </Border>
+            </Property>
+            <Property name="autoscrolls" type="boolean" value="true"/>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="jPanel7PropertyChange"/>
+          </Events>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextFieldPCKREF" alignment="0" pref="114" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldPCKR" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextField1PCKCN" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldPCKSTR" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldPCKCTY" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextFieldPCKZIP" pref="56" max="32767" attributes="0"/>
+                                  <Component id="jButtonFindPickUpAddress" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jComboBoxPickUpCountry" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldPCKR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonFindPickUpAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField1PCKCN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldPCKSTR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldPCKCTY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPCKZIP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxPickUpCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPCKREF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="jTextFieldPCKREF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPCKZIP">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Country"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPCKSTR">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City and zip code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1PCKCN">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="reference"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Relation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPCKCTY">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPCKR">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Company Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonFindPickUpAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Find"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonFindPickUpAddressActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxPickUpCountry">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="250">
+                    <StringItem index="0" value="AF || Afghanistan"/>
+                    <StringItem index="1" value="AX || &#xc5;land Islands"/>
+                    <StringItem index="2" value="AL || Albania"/>
+                    <StringItem index="3" value="DZ || Algeria"/>
+                    <StringItem index="4" value="AS || American Samoa"/>
+                    <StringItem index="5" value="AD || Andorra"/>
+                    <StringItem index="6" value="AO || Angola"/>
+                    <StringItem index="7" value="AI || Anguilla"/>
+                    <StringItem index="8" value="AQ || Antarctica"/>
+                    <StringItem index="9" value="AG || Antigua and Barbuda"/>
+                    <StringItem index="10" value="AR || Argentina"/>
+                    <StringItem index="11" value="AM || Armenia"/>
+                    <StringItem index="12" value="AW || Aruba"/>
+                    <StringItem index="13" value="AU || Australia"/>
+                    <StringItem index="14" value="AT || Austria"/>
+                    <StringItem index="15" value="AZ || Azerbaijan"/>
+                    <StringItem index="16" value="BS || Bahamas"/>
+                    <StringItem index="17" value="BH || Bahrain"/>
+                    <StringItem index="18" value="BD || Bangladesh"/>
+                    <StringItem index="19" value="BB || Barbados"/>
+                    <StringItem index="20" value="BY || Belarus"/>
+                    <StringItem index="21" value="BE || Belgium"/>
+                    <StringItem index="22" value="BZ || Belize"/>
+                    <StringItem index="23" value="BJ || Benin"/>
+                    <StringItem index="24" value="BM || Bermuda"/>
+                    <StringItem index="25" value="BT || Bhutan"/>
+                    <StringItem index="26" value="BO || Bolivia (Plurinational State of)"/>
+                    <StringItem index="27" value="BQ || Bonaire, Sint Eustatius and Saba"/>
+                    <StringItem index="28" value="BA || Bosnia and Herzegovina"/>
+                    <StringItem index="29" value="BW || Botswana"/>
+                    <StringItem index="30" value="BV || Bouvet Island"/>
+                    <StringItem index="31" value="BR || Brazil"/>
+                    <StringItem index="32" value="IO || British Indian Ocean Territory"/>
+                    <StringItem index="33" value="BN || Brunei Darussalam"/>
+                    <StringItem index="34" value="BG || Bulgaria"/>
+                    <StringItem index="35" value="BF || Burkina Faso"/>
+                    <StringItem index="36" value="BI || Burundi"/>
+                    <StringItem index="37" value="KH || Cambodia"/>
+                    <StringItem index="38" value="CM || Cameroon"/>
+                    <StringItem index="39" value="CA || Canada"/>
+                    <StringItem index="40" value="CV || Cabo Verde"/>
+                    <StringItem index="41" value="KY || Cayman Islands"/>
+                    <StringItem index="42" value="CF || Central African Republic"/>
+                    <StringItem index="43" value="TD || Chad"/>
+                    <StringItem index="44" value="CL || Chile"/>
+                    <StringItem index="45" value="CN || China"/>
+                    <StringItem index="46" value="CX || Christmas Island"/>
+                    <StringItem index="47" value="CC || Cocos (Keeling) Islands"/>
+                    <StringItem index="48" value="CO || Colombia"/>
+                    <StringItem index="49" value="KM || Comoros"/>
+                    <StringItem index="50" value="CG || Congo"/>
+                    <StringItem index="51" value="CD || Congo (Democratic Republic of the)"/>
+                    <StringItem index="52" value="CK || Cook Islands"/>
+                    <StringItem index="53" value="CR || Costa Rica"/>
+                    <StringItem index="54" value="CI || C&#xf4;te d&apos;Ivoire"/>
+                    <StringItem index="55" value="HR || Croatia"/>
+                    <StringItem index="56" value="CU || Cuba"/>
+                    <StringItem index="57" value="CW || Cura&#xe7;ao"/>
+                    <StringItem index="58" value="CY || Cyprus"/>
+                    <StringItem index="59" value="CZ || Czech Republic"/>
+                    <StringItem index="60" value="DK || Denmark"/>
+                    <StringItem index="61" value="DJ || Djibouti"/>
+                    <StringItem index="62" value="DM || Dominica"/>
+                    <StringItem index="63" value="DO || Dominican Republic"/>
+                    <StringItem index="64" value="EC || Ecuador"/>
+                    <StringItem index="65" value="EG || Egypt"/>
+                    <StringItem index="66" value="SV || El Salvador"/>
+                    <StringItem index="67" value="GQ || Equatorial Guinea"/>
+                    <StringItem index="68" value="ER || Eritrea"/>
+                    <StringItem index="69" value="EE || Estonia"/>
+                    <StringItem index="70" value="ET || Ethiopia"/>
+                    <StringItem index="71" value="FK || Falkland Islands (Malvinas)"/>
+                    <StringItem index="72" value="FO || Faroe Islands"/>
+                    <StringItem index="73" value="FJ || Fiji"/>
+                    <StringItem index="74" value="FI || Finland"/>
+                    <StringItem index="75" value="FR || France"/>
+                    <StringItem index="76" value="GF || French Guiana"/>
+                    <StringItem index="77" value="PF || French Polynesia"/>
+                    <StringItem index="78" value="TF || French Southern Territories"/>
+                    <StringItem index="79" value="GA || Gabon"/>
+                    <StringItem index="80" value="GM || Gambia"/>
+                    <StringItem index="81" value="GE || Georgia"/>
+                    <StringItem index="82" value="DE || Germany"/>
+                    <StringItem index="83" value="GH || Ghana"/>
+                    <StringItem index="84" value="GI || Gibraltar"/>
+                    <StringItem index="85" value="GR || Greece"/>
+                    <StringItem index="86" value="GL || Greenland"/>
+                    <StringItem index="87" value="GD || Grenada"/>
+                    <StringItem index="88" value="GP || Guadeloupe"/>
+                    <StringItem index="89" value="GU || Guam"/>
+                    <StringItem index="90" value="GT || Guatemala"/>
+                    <StringItem index="91" value="GG || Guernsey"/>
+                    <StringItem index="92" value="GN || Guinea"/>
+                    <StringItem index="93" value="GW || Guinea-Bissau"/>
+                    <StringItem index="94" value="GY || Guyana"/>
+                    <StringItem index="95" value="HT || Haiti"/>
+                    <StringItem index="96" value="HM || Heard Island and McDonald Islands"/>
+                    <StringItem index="97" value="VA || Holy See"/>
+                    <StringItem index="98" value="HN || Honduras"/>
+                    <StringItem index="99" value="HK || Hong Kong"/>
+                    <StringItem index="100" value="HU || Hungary"/>
+                    <StringItem index="101" value="IS || Iceland"/>
+                    <StringItem index="102" value="IN || India"/>
+                    <StringItem index="103" value="ID || Indonesia"/>
+                    <StringItem index="104" value="IR || Iran (Islamic Republic of)"/>
+                    <StringItem index="105" value="IQ || Iraq"/>
+                    <StringItem index="106" value="IE || Ireland"/>
+                    <StringItem index="107" value="IM || Isle of Man"/>
+                    <StringItem index="108" value="IL || Israel"/>
+                    <StringItem index="109" value="IT || Italy"/>
+                    <StringItem index="110" value="JM || Jamaica"/>
+                    <StringItem index="111" value="JP || Japan"/>
+                    <StringItem index="112" value="JE || Jersey"/>
+                    <StringItem index="113" value="JO || Jordan"/>
+                    <StringItem index="114" value="KZ || Kazakhstan"/>
+                    <StringItem index="115" value="KE || Kenya"/>
+                    <StringItem index="116" value="KI || Kiribati"/>
+                    <StringItem index="117" value="KP || Korea (Democratic People&apos;s Republic of)"/>
+                    <StringItem index="118" value="KR || Korea (Republic of)"/>
+                    <StringItem index="119" value="KW || Kuwait"/>
+                    <StringItem index="120" value="KG || Kyrgyzstan"/>
+                    <StringItem index="121" value="LA || Lao People&apos;s Democratic Republic"/>
+                    <StringItem index="122" value="LV || Latvia"/>
+                    <StringItem index="123" value="LB || Lebanon"/>
+                    <StringItem index="124" value="LS || Lesotho"/>
+                    <StringItem index="125" value="LR || Liberia"/>
+                    <StringItem index="126" value="LY || Libya"/>
+                    <StringItem index="127" value="LI || Liechtenstein"/>
+                    <StringItem index="128" value="LT || Lithuania"/>
+                    <StringItem index="129" value="LU || Luxembourg"/>
+                    <StringItem index="130" value="MO || Macao"/>
+                    <StringItem index="131" value="MK || Macedonia (the former Yugoslav Republic of)"/>
+                    <StringItem index="132" value="MG || Madagascar"/>
+                    <StringItem index="133" value="MW || Malawi"/>
+                    <StringItem index="134" value="MY || Malaysia"/>
+                    <StringItem index="135" value="MV || Maldives"/>
+                    <StringItem index="136" value="ML || Mali"/>
+                    <StringItem index="137" value="MT || Malta"/>
+                    <StringItem index="138" value="MH || Marshall Islands"/>
+                    <StringItem index="139" value="MQ || Martinique"/>
+                    <StringItem index="140" value="MR || Mauritania"/>
+                    <StringItem index="141" value="MU || Mauritius"/>
+                    <StringItem index="142" value="YT || Mayotte"/>
+                    <StringItem index="143" value="MX || Mexico"/>
+                    <StringItem index="144" value="FM || Micronesia (Federated States of)"/>
+                    <StringItem index="145" value="MD || Moldova (Republic of)"/>
+                    <StringItem index="146" value="MC || Monaco"/>
+                    <StringItem index="147" value="MN || Mongolia"/>
+                    <StringItem index="148" value="ME || Montenegro"/>
+                    <StringItem index="149" value="MS || Montserrat"/>
+                    <StringItem index="150" value="MA || Morocco"/>
+                    <StringItem index="151" value="MZ || Mozambique"/>
+                    <StringItem index="152" value="MM || Myanmar"/>
+                    <StringItem index="153" value="NA || Namibia"/>
+                    <StringItem index="154" value="NR || Nauru"/>
+                    <StringItem index="155" value="NP || Nepal"/>
+                    <StringItem index="156" value="NL || Netherlands"/>
+                    <StringItem index="157" value="NC || New Caledonia"/>
+                    <StringItem index="158" value="NZ || New Zealand"/>
+                    <StringItem index="159" value="NI || Nicaragua"/>
+                    <StringItem index="160" value="NE || Niger"/>
+                    <StringItem index="161" value="NG || Nigeria"/>
+                    <StringItem index="162" value="NU || Niue"/>
+                    <StringItem index="163" value="NF || Norfolk Island"/>
+                    <StringItem index="164" value="MP || Northern Mariana Islands"/>
+                    <StringItem index="165" value="NO || Norway"/>
+                    <StringItem index="166" value="OM || Oman"/>
+                    <StringItem index="167" value="PK || Pakistan"/>
+                    <StringItem index="168" value="PW || Palau"/>
+                    <StringItem index="169" value="PS || Palestine, State of"/>
+                    <StringItem index="170" value="PA || Panama"/>
+                    <StringItem index="171" value="PG || Papua New Guinea"/>
+                    <StringItem index="172" value="PY || Paraguay"/>
+                    <StringItem index="173" value="PE || Peru"/>
+                    <StringItem index="174" value="PH || Philippines"/>
+                    <StringItem index="175" value="PN || Pitcairn"/>
+                    <StringItem index="176" value="PL || Poland"/>
+                    <StringItem index="177" value="PT || Portugal"/>
+                    <StringItem index="178" value="PR || Puerto Rico"/>
+                    <StringItem index="179" value="QA || Qatar"/>
+                    <StringItem index="180" value="RE || R&#xe9;union"/>
+                    <StringItem index="181" value="RO || Romania"/>
+                    <StringItem index="182" value="RU || Russian Federation"/>
+                    <StringItem index="183" value="RW || Rwanda"/>
+                    <StringItem index="184" value="BL || Saint Barth&#xe9;lemy"/>
+                    <StringItem index="185" value="SH || Saint Helena, Ascension and Tristan da Cunha"/>
+                    <StringItem index="186" value="KN || Saint Kitts and Nevis"/>
+                    <StringItem index="187" value="LC || Saint Lucia"/>
+                    <StringItem index="188" value="MF || Saint Martin (French part)"/>
+                    <StringItem index="189" value="PM || Saint Pierre and Miquelon"/>
+                    <StringItem index="190" value="VC || Saint Vincent and the Grenadines"/>
+                    <StringItem index="191" value="WS || Samoa"/>
+                    <StringItem index="192" value="SM || San Marino"/>
+                    <StringItem index="193" value="ST || Sao Tome and Principe"/>
+                    <StringItem index="194" value="SA || Saudi Arabia"/>
+                    <StringItem index="195" value="SN || Senegal"/>
+                    <StringItem index="196" value="RS || Serbia"/>
+                    <StringItem index="197" value="SC || Seychelles"/>
+                    <StringItem index="198" value="SL || Sierra Leone"/>
+                    <StringItem index="199" value="SG || Singapore"/>
+                    <StringItem index="200" value="SX || Sint Maarten (Dutch part)"/>
+                    <StringItem index="201" value="SK || Slovakia"/>
+                    <StringItem index="202" value="SI || Slovenia"/>
+                    <StringItem index="203" value="SB || Solomon Islands"/>
+                    <StringItem index="204" value="SO || Somalia"/>
+                    <StringItem index="205" value="ZA || South Africa"/>
+                    <StringItem index="206" value="GS || South Georgia and the South Sandwich Islands"/>
+                    <StringItem index="207" value="SS || South Sudan"/>
+                    <StringItem index="208" value="ES || Spain"/>
+                    <StringItem index="209" value="LK || Sri Lanka"/>
+                    <StringItem index="210" value="SD || Sudan"/>
+                    <StringItem index="211" value="SR || Suriname"/>
+                    <StringItem index="212" value="SJ || Svalbard and Jan Mayen"/>
+                    <StringItem index="213" value="SZ || Swaziland"/>
+                    <StringItem index="214" value="SE || Sweden"/>
+                    <StringItem index="215" value="CH || Switzerland"/>
+                    <StringItem index="216" value="SY || Syrian Arab Republic"/>
+                    <StringItem index="217" value="TW || Taiwan, Province of China"/>
+                    <StringItem index="218" value="TJ || Tajikistan"/>
+                    <StringItem index="219" value="TZ || Tanzania, United Republic of"/>
+                    <StringItem index="220" value="TH || Thailand"/>
+                    <StringItem index="221" value="TL || Timor-Leste"/>
+                    <StringItem index="222" value="TG || Togo"/>
+                    <StringItem index="223" value="TK || Tokelau"/>
+                    <StringItem index="224" value="TO || Tonga"/>
+                    <StringItem index="225" value="TT || Trinidad and Tobago"/>
+                    <StringItem index="226" value="TN || Tunisia"/>
+                    <StringItem index="227" value="TR || Turkey"/>
+                    <StringItem index="228" value="TM || Turkmenistan"/>
+                    <StringItem index="229" value="TC || Turks and Caicos Islands"/>
+                    <StringItem index="230" value="TV || Tuvalu"/>
+                    <StringItem index="231" value="UG || Uganda"/>
+                    <StringItem index="232" value="UA || Ukraine"/>
+                    <StringItem index="233" value="AE || United Arab Emirates"/>
+                    <StringItem index="234" value="GB || United Kingdom of Great Britain and Northern Ireland"/>
+                    <StringItem index="235" value="US || United States of America"/>
+                    <StringItem index="236" value="UM || United States Minor Outlying Islands"/>
+                    <StringItem index="237" value="UY || Uruguay"/>
+                    <StringItem index="238" value="UZ || Uzbekistan"/>
+                    <StringItem index="239" value="VU || Vanuatu"/>
+                    <StringItem index="240" value="VE || Venezuela (Bolivarian Republic of)"/>
+                    <StringItem index="241" value="VN || Viet Nam"/>
+                    <StringItem index="242" value="VG || Virgin Islands (British)"/>
+                    <StringItem index="243" value="VI || Virgin Islands (U.S.)"/>
+                    <StringItem index="244" value="WF || Wallis and Futuna"/>
+                    <StringItem index="245" value="EH || Western Sahara"/>
+                    <StringItem index="246" value="YE || Yemen"/>
+                    <StringItem index="247" value="ZM || Zambia"/>
+                    <StringItem index="248" value="ZW || Zimbabwe"/>
+                    <StringItem index="249" value=" "/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel9">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Delivery address"/>
+              </Border>
+            </Property>
+            <Property name="autoscrolls" type="boolean" value="true"/>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel21" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel24" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel22" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel23" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel20" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel19" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextFieldDELREF" alignment="0" pref="114" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldDELR" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldDELCMN" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldDELSTR" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldDELCTY" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldDELZIP" min="-2" pref="55" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButtonFindDeliveryAddress" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jComboBoxDeliveryCountry" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldDELR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonFindDeliveryAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldDELCMN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldDELSTR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldDELCTY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldDELZIP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxDeliveryCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldDELREF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="jTextFieldDELREF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldDELZIP">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Country"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldDELSTR">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City and zip code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldDELCMN">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="reference"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Relation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldDELCTY">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldDELR">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Company Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonFindDeliveryAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Find"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonFindDeliveryAddressActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxDeliveryCountry">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="250">
+                    <StringItem index="0" value="AF || Afghanistan"/>
+                    <StringItem index="1" value="AX || &#xc5;land Islands"/>
+                    <StringItem index="2" value="AL || Albania"/>
+                    <StringItem index="3" value="DZ || Algeria"/>
+                    <StringItem index="4" value="AS || American Samoa"/>
+                    <StringItem index="5" value="AD || Andorra"/>
+                    <StringItem index="6" value="AO || Angola"/>
+                    <StringItem index="7" value="AI || Anguilla"/>
+                    <StringItem index="8" value="AQ || Antarctica"/>
+                    <StringItem index="9" value="AG || Antigua and Barbuda"/>
+                    <StringItem index="10" value="AR || Argentina"/>
+                    <StringItem index="11" value="AM || Armenia"/>
+                    <StringItem index="12" value="AW || Aruba"/>
+                    <StringItem index="13" value="AU || Australia"/>
+                    <StringItem index="14" value="AT || Austria"/>
+                    <StringItem index="15" value="AZ || Azerbaijan"/>
+                    <StringItem index="16" value="BS || Bahamas"/>
+                    <StringItem index="17" value="BH || Bahrain"/>
+                    <StringItem index="18" value="BD || Bangladesh"/>
+                    <StringItem index="19" value="BB || Barbados"/>
+                    <StringItem index="20" value="BY || Belarus"/>
+                    <StringItem index="21" value="BE || Belgium"/>
+                    <StringItem index="22" value="BZ || Belize"/>
+                    <StringItem index="23" value="BJ || Benin"/>
+                    <StringItem index="24" value="BM || Bermuda"/>
+                    <StringItem index="25" value="BT || Bhutan"/>
+                    <StringItem index="26" value="BO || Bolivia (Plurinational State of)"/>
+                    <StringItem index="27" value="BQ || Bonaire, Sint Eustatius and Saba"/>
+                    <StringItem index="28" value="BA || Bosnia and Herzegovina"/>
+                    <StringItem index="29" value="BW || Botswana"/>
+                    <StringItem index="30" value="BV || Bouvet Island"/>
+                    <StringItem index="31" value="BR || Brazil"/>
+                    <StringItem index="32" value="IO || British Indian Ocean Territory"/>
+                    <StringItem index="33" value="BN || Brunei Darussalam"/>
+                    <StringItem index="34" value="BG || Bulgaria"/>
+                    <StringItem index="35" value="BF || Burkina Faso"/>
+                    <StringItem index="36" value="BI || Burundi"/>
+                    <StringItem index="37" value="KH || Cambodia"/>
+                    <StringItem index="38" value="CM || Cameroon"/>
+                    <StringItem index="39" value="CA || Canada"/>
+                    <StringItem index="40" value="CV || Cabo Verde"/>
+                    <StringItem index="41" value="KY || Cayman Islands"/>
+                    <StringItem index="42" value="CF || Central African Republic"/>
+                    <StringItem index="43" value="TD || Chad"/>
+                    <StringItem index="44" value="CL || Chile"/>
+                    <StringItem index="45" value="CN || China"/>
+                    <StringItem index="46" value="CX || Christmas Island"/>
+                    <StringItem index="47" value="CC || Cocos (Keeling) Islands"/>
+                    <StringItem index="48" value="CO || Colombia"/>
+                    <StringItem index="49" value="KM || Comoros"/>
+                    <StringItem index="50" value="CG || Congo"/>
+                    <StringItem index="51" value="CD || Congo (Democratic Republic of the)"/>
+                    <StringItem index="52" value="CK || Cook Islands"/>
+                    <StringItem index="53" value="CR || Costa Rica"/>
+                    <StringItem index="54" value="CI || C&#xf4;te d&apos;Ivoire"/>
+                    <StringItem index="55" value="HR || Croatia"/>
+                    <StringItem index="56" value="CU || Cuba"/>
+                    <StringItem index="57" value="CW || Cura&#xe7;ao"/>
+                    <StringItem index="58" value="CY || Cyprus"/>
+                    <StringItem index="59" value="CZ || Czech Republic"/>
+                    <StringItem index="60" value="DK || Denmark"/>
+                    <StringItem index="61" value="DJ || Djibouti"/>
+                    <StringItem index="62" value="DM || Dominica"/>
+                    <StringItem index="63" value="DO || Dominican Republic"/>
+                    <StringItem index="64" value="EC || Ecuador"/>
+                    <StringItem index="65" value="EG || Egypt"/>
+                    <StringItem index="66" value="SV || El Salvador"/>
+                    <StringItem index="67" value="GQ || Equatorial Guinea"/>
+                    <StringItem index="68" value="ER || Eritrea"/>
+                    <StringItem index="69" value="EE || Estonia"/>
+                    <StringItem index="70" value="ET || Ethiopia"/>
+                    <StringItem index="71" value="FK || Falkland Islands (Malvinas)"/>
+                    <StringItem index="72" value="FO || Faroe Islands"/>
+                    <StringItem index="73" value="FJ || Fiji"/>
+                    <StringItem index="74" value="FI || Finland"/>
+                    <StringItem index="75" value="FR || France"/>
+                    <StringItem index="76" value="GF || French Guiana"/>
+                    <StringItem index="77" value="PF || French Polynesia"/>
+                    <StringItem index="78" value="TF || French Southern Territories"/>
+                    <StringItem index="79" value="GA || Gabon"/>
+                    <StringItem index="80" value="GM || Gambia"/>
+                    <StringItem index="81" value="GE || Georgia"/>
+                    <StringItem index="82" value="DE || Germany"/>
+                    <StringItem index="83" value="GH || Ghana"/>
+                    <StringItem index="84" value="GI || Gibraltar"/>
+                    <StringItem index="85" value="GR || Greece"/>
+                    <StringItem index="86" value="GL || Greenland"/>
+                    <StringItem index="87" value="GD || Grenada"/>
+                    <StringItem index="88" value="GP || Guadeloupe"/>
+                    <StringItem index="89" value="GU || Guam"/>
+                    <StringItem index="90" value="GT || Guatemala"/>
+                    <StringItem index="91" value="GG || Guernsey"/>
+                    <StringItem index="92" value="GN || Guinea"/>
+                    <StringItem index="93" value="GW || Guinea-Bissau"/>
+                    <StringItem index="94" value="GY || Guyana"/>
+                    <StringItem index="95" value="HT || Haiti"/>
+                    <StringItem index="96" value="HM || Heard Island and McDonald Islands"/>
+                    <StringItem index="97" value="VA || Holy See"/>
+                    <StringItem index="98" value="HN || Honduras"/>
+                    <StringItem index="99" value="HK || Hong Kong"/>
+                    <StringItem index="100" value="HU || Hungary"/>
+                    <StringItem index="101" value="IS || Iceland"/>
+                    <StringItem index="102" value="IN || India"/>
+                    <StringItem index="103" value="ID || Indonesia"/>
+                    <StringItem index="104" value="IR || Iran (Islamic Republic of)"/>
+                    <StringItem index="105" value="IQ || Iraq"/>
+                    <StringItem index="106" value="IE || Ireland"/>
+                    <StringItem index="107" value="IM || Isle of Man"/>
+                    <StringItem index="108" value="IL || Israel"/>
+                    <StringItem index="109" value="IT || Italy"/>
+                    <StringItem index="110" value="JM || Jamaica"/>
+                    <StringItem index="111" value="JP || Japan"/>
+                    <StringItem index="112" value="JE || Jersey"/>
+                    <StringItem index="113" value="JO || Jordan"/>
+                    <StringItem index="114" value="KZ || Kazakhstan"/>
+                    <StringItem index="115" value="KE || Kenya"/>
+                    <StringItem index="116" value="KI || Kiribati"/>
+                    <StringItem index="117" value="KP || Korea (Democratic People&apos;s Republic of)"/>
+                    <StringItem index="118" value="KR || Korea (Republic of)"/>
+                    <StringItem index="119" value="KW || Kuwait"/>
+                    <StringItem index="120" value="KG || Kyrgyzstan"/>
+                    <StringItem index="121" value="LA || Lao People&apos;s Democratic Republic"/>
+                    <StringItem index="122" value="LV || Latvia"/>
+                    <StringItem index="123" value="LB || Lebanon"/>
+                    <StringItem index="124" value="LS || Lesotho"/>
+                    <StringItem index="125" value="LR || Liberia"/>
+                    <StringItem index="126" value="LY || Libya"/>
+                    <StringItem index="127" value="LI || Liechtenstein"/>
+                    <StringItem index="128" value="LT || Lithuania"/>
+                    <StringItem index="129" value="LU || Luxembourg"/>
+                    <StringItem index="130" value="MO || Macao"/>
+                    <StringItem index="131" value="MK || Macedonia (the former Yugoslav Republic of)"/>
+                    <StringItem index="132" value="MG || Madagascar"/>
+                    <StringItem index="133" value="MW || Malawi"/>
+                    <StringItem index="134" value="MY || Malaysia"/>
+                    <StringItem index="135" value="MV || Maldives"/>
+                    <StringItem index="136" value="ML || Mali"/>
+                    <StringItem index="137" value="MT || Malta"/>
+                    <StringItem index="138" value="MH || Marshall Islands"/>
+                    <StringItem index="139" value="MQ || Martinique"/>
+                    <StringItem index="140" value="MR || Mauritania"/>
+                    <StringItem index="141" value="MU || Mauritius"/>
+                    <StringItem index="142" value="YT || Mayotte"/>
+                    <StringItem index="143" value="MX || Mexico"/>
+                    <StringItem index="144" value="FM || Micronesia (Federated States of)"/>
+                    <StringItem index="145" value="MD || Moldova (Republic of)"/>
+                    <StringItem index="146" value="MC || Monaco"/>
+                    <StringItem index="147" value="MN || Mongolia"/>
+                    <StringItem index="148" value="ME || Montenegro"/>
+                    <StringItem index="149" value="MS || Montserrat"/>
+                    <StringItem index="150" value="MA || Morocco"/>
+                    <StringItem index="151" value="MZ || Mozambique"/>
+                    <StringItem index="152" value="MM || Myanmar"/>
+                    <StringItem index="153" value="NA || Namibia"/>
+                    <StringItem index="154" value="NR || Nauru"/>
+                    <StringItem index="155" value="NP || Nepal"/>
+                    <StringItem index="156" value="NL || Netherlands"/>
+                    <StringItem index="157" value="NC || New Caledonia"/>
+                    <StringItem index="158" value="NZ || New Zealand"/>
+                    <StringItem index="159" value="NI || Nicaragua"/>
+                    <StringItem index="160" value="NE || Niger"/>
+                    <StringItem index="161" value="NG || Nigeria"/>
+                    <StringItem index="162" value="NU || Niue"/>
+                    <StringItem index="163" value="NF || Norfolk Island"/>
+                    <StringItem index="164" value="MP || Northern Mariana Islands"/>
+                    <StringItem index="165" value="NO || Norway"/>
+                    <StringItem index="166" value="OM || Oman"/>
+                    <StringItem index="167" value="PK || Pakistan"/>
+                    <StringItem index="168" value="PW || Palau"/>
+                    <StringItem index="169" value="PS || Palestine, State of"/>
+                    <StringItem index="170" value="PA || Panama"/>
+                    <StringItem index="171" value="PG || Papua New Guinea"/>
+                    <StringItem index="172" value="PY || Paraguay"/>
+                    <StringItem index="173" value="PE || Peru"/>
+                    <StringItem index="174" value="PH || Philippines"/>
+                    <StringItem index="175" value="PN || Pitcairn"/>
+                    <StringItem index="176" value="PL || Poland"/>
+                    <StringItem index="177" value="PT || Portugal"/>
+                    <StringItem index="178" value="PR || Puerto Rico"/>
+                    <StringItem index="179" value="QA || Qatar"/>
+                    <StringItem index="180" value="RE || R&#xe9;union"/>
+                    <StringItem index="181" value="RO || Romania"/>
+                    <StringItem index="182" value="RU || Russian Federation"/>
+                    <StringItem index="183" value="RW || Rwanda"/>
+                    <StringItem index="184" value="BL || Saint Barth&#xe9;lemy"/>
+                    <StringItem index="185" value="SH || Saint Helena, Ascension and Tristan da Cunha"/>
+                    <StringItem index="186" value="KN || Saint Kitts and Nevis"/>
+                    <StringItem index="187" value="LC || Saint Lucia"/>
+                    <StringItem index="188" value="MF || Saint Martin (French part)"/>
+                    <StringItem index="189" value="PM || Saint Pierre and Miquelon"/>
+                    <StringItem index="190" value="VC || Saint Vincent and the Grenadines"/>
+                    <StringItem index="191" value="WS || Samoa"/>
+                    <StringItem index="192" value="SM || San Marino"/>
+                    <StringItem index="193" value="ST || Sao Tome and Principe"/>
+                    <StringItem index="194" value="SA || Saudi Arabia"/>
+                    <StringItem index="195" value="SN || Senegal"/>
+                    <StringItem index="196" value="RS || Serbia"/>
+                    <StringItem index="197" value="SC || Seychelles"/>
+                    <StringItem index="198" value="SL || Sierra Leone"/>
+                    <StringItem index="199" value="SG || Singapore"/>
+                    <StringItem index="200" value="SX || Sint Maarten (Dutch part)"/>
+                    <StringItem index="201" value="SK || Slovakia"/>
+                    <StringItem index="202" value="SI || Slovenia"/>
+                    <StringItem index="203" value="SB || Solomon Islands"/>
+                    <StringItem index="204" value="SO || Somalia"/>
+                    <StringItem index="205" value="ZA || South Africa"/>
+                    <StringItem index="206" value="GS || South Georgia and the South Sandwich Islands"/>
+                    <StringItem index="207" value="SS || South Sudan"/>
+                    <StringItem index="208" value="ES || Spain"/>
+                    <StringItem index="209" value="LK || Sri Lanka"/>
+                    <StringItem index="210" value="SD || Sudan"/>
+                    <StringItem index="211" value="SR || Suriname"/>
+                    <StringItem index="212" value="SJ || Svalbard and Jan Mayen"/>
+                    <StringItem index="213" value="SZ || Swaziland"/>
+                    <StringItem index="214" value="SE || Sweden"/>
+                    <StringItem index="215" value="CH || Switzerland"/>
+                    <StringItem index="216" value="SY || Syrian Arab Republic"/>
+                    <StringItem index="217" value="TW || Taiwan, Province of China"/>
+                    <StringItem index="218" value="TJ || Tajikistan"/>
+                    <StringItem index="219" value="TZ || Tanzania, United Republic of"/>
+                    <StringItem index="220" value="TH || Thailand"/>
+                    <StringItem index="221" value="TL || Timor-Leste"/>
+                    <StringItem index="222" value="TG || Togo"/>
+                    <StringItem index="223" value="TK || Tokelau"/>
+                    <StringItem index="224" value="TO || Tonga"/>
+                    <StringItem index="225" value="TT || Trinidad and Tobago"/>
+                    <StringItem index="226" value="TN || Tunisia"/>
+                    <StringItem index="227" value="TR || Turkey"/>
+                    <StringItem index="228" value="TM || Turkmenistan"/>
+                    <StringItem index="229" value="TC || Turks and Caicos Islands"/>
+                    <StringItem index="230" value="TV || Tuvalu"/>
+                    <StringItem index="231" value="UG || Uganda"/>
+                    <StringItem index="232" value="UA || Ukraine"/>
+                    <StringItem index="233" value="AE || United Arab Emirates"/>
+                    <StringItem index="234" value="GB || United Kingdom of Great Britain and Northern Ireland"/>
+                    <StringItem index="235" value="US || United States of America"/>
+                    <StringItem index="236" value="UM || United States Minor Outlying Islands"/>
+                    <StringItem index="237" value="UY || Uruguay"/>
+                    <StringItem index="238" value="UZ || Uzbekistan"/>
+                    <StringItem index="239" value="VU || Vanuatu"/>
+                    <StringItem index="240" value="VE || Venezuela (Bolivarian Republic of)"/>
+                    <StringItem index="241" value="VN || Viet Nam"/>
+                    <StringItem index="242" value="VG || Virgin Islands (British)"/>
+                    <StringItem index="243" value="VI || Virgin Islands (U.S.)"/>
+                    <StringItem index="244" value="WF || Wallis and Futuna"/>
+                    <StringItem index="245" value="EH || Western Sahara"/>
+                    <StringItem index="246" value="YE || Yemen"/>
+                    <StringItem index="247" value="ZM || Zambia"/>
+                    <StringItem index="248" value="ZW || Zimbabwe"/>
+                    <StringItem index="249" value=" "/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel10">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Invoice address"/>
+              </Border>
+            </Property>
+            <Property name="autoscrolls" type="boolean" value="true"/>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel27" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel30" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel28" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel29" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel26" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel25" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextFieldINVREF" alignment="0" pref="114" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldINVR" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldINVCMN" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldINVSTR" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldINVCTY" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldINVZIP" min="-2" pref="61" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButtonFindInvoiceAddress" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jComboBoxInvoiceCountry" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldINVR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonFindInvoiceAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldINVCMN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldINVSTR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldINVCTY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldINVZIP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxInvoiceCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldINVREF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="jTextFieldINVREF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldINVZIP">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Country"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldINVSTR">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City and zip code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldINVCMN">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="reference"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Relation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldINVCTY">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldINVR">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Company Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonFindInvoiceAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Find"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonFindInvoiceAddressActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxInvoiceCountry">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="250">
+                    <StringItem index="0" value="AF || Afghanistan"/>
+                    <StringItem index="1" value="AX || &#xc5;land Islands"/>
+                    <StringItem index="2" value="AL || Albania"/>
+                    <StringItem index="3" value="DZ || Algeria"/>
+                    <StringItem index="4" value="AS || American Samoa"/>
+                    <StringItem index="5" value="AD || Andorra"/>
+                    <StringItem index="6" value="AO || Angola"/>
+                    <StringItem index="7" value="AI || Anguilla"/>
+                    <StringItem index="8" value="AQ || Antarctica"/>
+                    <StringItem index="9" value="AG || Antigua and Barbuda"/>
+                    <StringItem index="10" value="AR || Argentina"/>
+                    <StringItem index="11" value="AM || Armenia"/>
+                    <StringItem index="12" value="AW || Aruba"/>
+                    <StringItem index="13" value="AU || Australia"/>
+                    <StringItem index="14" value="AT || Austria"/>
+                    <StringItem index="15" value="AZ || Azerbaijan"/>
+                    <StringItem index="16" value="BS || Bahamas"/>
+                    <StringItem index="17" value="BH || Bahrain"/>
+                    <StringItem index="18" value="BD || Bangladesh"/>
+                    <StringItem index="19" value="BB || Barbados"/>
+                    <StringItem index="20" value="BY || Belarus"/>
+                    <StringItem index="21" value="BE || Belgium"/>
+                    <StringItem index="22" value="BZ || Belize"/>
+                    <StringItem index="23" value="BJ || Benin"/>
+                    <StringItem index="24" value="BM || Bermuda"/>
+                    <StringItem index="25" value="BT || Bhutan"/>
+                    <StringItem index="26" value="BO || Bolivia (Plurinational State of)"/>
+                    <StringItem index="27" value="BQ || Bonaire, Sint Eustatius and Saba"/>
+                    <StringItem index="28" value="BA || Bosnia and Herzegovina"/>
+                    <StringItem index="29" value="BW || Botswana"/>
+                    <StringItem index="30" value="BV || Bouvet Island"/>
+                    <StringItem index="31" value="BR || Brazil"/>
+                    <StringItem index="32" value="IO || British Indian Ocean Territory"/>
+                    <StringItem index="33" value="BN || Brunei Darussalam"/>
+                    <StringItem index="34" value="BG || Bulgaria"/>
+                    <StringItem index="35" value="BF || Burkina Faso"/>
+                    <StringItem index="36" value="BI || Burundi"/>
+                    <StringItem index="37" value="KH || Cambodia"/>
+                    <StringItem index="38" value="CM || Cameroon"/>
+                    <StringItem index="39" value="CA || Canada"/>
+                    <StringItem index="40" value="CV || Cabo Verde"/>
+                    <StringItem index="41" value="KY || Cayman Islands"/>
+                    <StringItem index="42" value="CF || Central African Republic"/>
+                    <StringItem index="43" value="TD || Chad"/>
+                    <StringItem index="44" value="CL || Chile"/>
+                    <StringItem index="45" value="CN || China"/>
+                    <StringItem index="46" value="CX || Christmas Island"/>
+                    <StringItem index="47" value="CC || Cocos (Keeling) Islands"/>
+                    <StringItem index="48" value="CO || Colombia"/>
+                    <StringItem index="49" value="KM || Comoros"/>
+                    <StringItem index="50" value="CG || Congo"/>
+                    <StringItem index="51" value="CD || Congo (Democratic Republic of the)"/>
+                    <StringItem index="52" value="CK || Cook Islands"/>
+                    <StringItem index="53" value="CR || Costa Rica"/>
+                    <StringItem index="54" value="CI || C&#xf4;te d&apos;Ivoire"/>
+                    <StringItem index="55" value="HR || Croatia"/>
+                    <StringItem index="56" value="CU || Cuba"/>
+                    <StringItem index="57" value="CW || Cura&#xe7;ao"/>
+                    <StringItem index="58" value="CY || Cyprus"/>
+                    <StringItem index="59" value="CZ || Czech Republic"/>
+                    <StringItem index="60" value="DK || Denmark"/>
+                    <StringItem index="61" value="DJ || Djibouti"/>
+                    <StringItem index="62" value="DM || Dominica"/>
+                    <StringItem index="63" value="DO || Dominican Republic"/>
+                    <StringItem index="64" value="EC || Ecuador"/>
+                    <StringItem index="65" value="EG || Egypt"/>
+                    <StringItem index="66" value="SV || El Salvador"/>
+                    <StringItem index="67" value="GQ || Equatorial Guinea"/>
+                    <StringItem index="68" value="ER || Eritrea"/>
+                    <StringItem index="69" value="EE || Estonia"/>
+                    <StringItem index="70" value="ET || Ethiopia"/>
+                    <StringItem index="71" value="FK || Falkland Islands (Malvinas)"/>
+                    <StringItem index="72" value="FO || Faroe Islands"/>
+                    <StringItem index="73" value="FJ || Fiji"/>
+                    <StringItem index="74" value="FI || Finland"/>
+                    <StringItem index="75" value="FR || France"/>
+                    <StringItem index="76" value="GF || French Guiana"/>
+                    <StringItem index="77" value="PF || French Polynesia"/>
+                    <StringItem index="78" value="TF || French Southern Territories"/>
+                    <StringItem index="79" value="GA || Gabon"/>
+                    <StringItem index="80" value="GM || Gambia"/>
+                    <StringItem index="81" value="GE || Georgia"/>
+                    <StringItem index="82" value="DE || Germany"/>
+                    <StringItem index="83" value="GH || Ghana"/>
+                    <StringItem index="84" value="GI || Gibraltar"/>
+                    <StringItem index="85" value="GR || Greece"/>
+                    <StringItem index="86" value="GL || Greenland"/>
+                    <StringItem index="87" value="GD || Grenada"/>
+                    <StringItem index="88" value="GP || Guadeloupe"/>
+                    <StringItem index="89" value="GU || Guam"/>
+                    <StringItem index="90" value="GT || Guatemala"/>
+                    <StringItem index="91" value="GG || Guernsey"/>
+                    <StringItem index="92" value="GN || Guinea"/>
+                    <StringItem index="93" value="GW || Guinea-Bissau"/>
+                    <StringItem index="94" value="GY || Guyana"/>
+                    <StringItem index="95" value="HT || Haiti"/>
+                    <StringItem index="96" value="HM || Heard Island and McDonald Islands"/>
+                    <StringItem index="97" value="VA || Holy See"/>
+                    <StringItem index="98" value="HN || Honduras"/>
+                    <StringItem index="99" value="HK || Hong Kong"/>
+                    <StringItem index="100" value="HU || Hungary"/>
+                    <StringItem index="101" value="IS || Iceland"/>
+                    <StringItem index="102" value="IN || India"/>
+                    <StringItem index="103" value="ID || Indonesia"/>
+                    <StringItem index="104" value="IR || Iran (Islamic Republic of)"/>
+                    <StringItem index="105" value="IQ || Iraq"/>
+                    <StringItem index="106" value="IE || Ireland"/>
+                    <StringItem index="107" value="IM || Isle of Man"/>
+                    <StringItem index="108" value="IL || Israel"/>
+                    <StringItem index="109" value="IT || Italy"/>
+                    <StringItem index="110" value="JM || Jamaica"/>
+                    <StringItem index="111" value="JP || Japan"/>
+                    <StringItem index="112" value="JE || Jersey"/>
+                    <StringItem index="113" value="JO || Jordan"/>
+                    <StringItem index="114" value="KZ || Kazakhstan"/>
+                    <StringItem index="115" value="KE || Kenya"/>
+                    <StringItem index="116" value="KI || Kiribati"/>
+                    <StringItem index="117" value="KP || Korea (Democratic People&apos;s Republic of)"/>
+                    <StringItem index="118" value="KR || Korea (Republic of)"/>
+                    <StringItem index="119" value="KW || Kuwait"/>
+                    <StringItem index="120" value="KG || Kyrgyzstan"/>
+                    <StringItem index="121" value="LA || Lao People&apos;s Democratic Republic"/>
+                    <StringItem index="122" value="LV || Latvia"/>
+                    <StringItem index="123" value="LB || Lebanon"/>
+                    <StringItem index="124" value="LS || Lesotho"/>
+                    <StringItem index="125" value="LR || Liberia"/>
+                    <StringItem index="126" value="LY || Libya"/>
+                    <StringItem index="127" value="LI || Liechtenstein"/>
+                    <StringItem index="128" value="LT || Lithuania"/>
+                    <StringItem index="129" value="LU || Luxembourg"/>
+                    <StringItem index="130" value="MO || Macao"/>
+                    <StringItem index="131" value="MK || Macedonia (the former Yugoslav Republic of)"/>
+                    <StringItem index="132" value="MG || Madagascar"/>
+                    <StringItem index="133" value="MW || Malawi"/>
+                    <StringItem index="134" value="MY || Malaysia"/>
+                    <StringItem index="135" value="MV || Maldives"/>
+                    <StringItem index="136" value="ML || Mali"/>
+                    <StringItem index="137" value="MT || Malta"/>
+                    <StringItem index="138" value="MH || Marshall Islands"/>
+                    <StringItem index="139" value="MQ || Martinique"/>
+                    <StringItem index="140" value="MR || Mauritania"/>
+                    <StringItem index="141" value="MU || Mauritius"/>
+                    <StringItem index="142" value="YT || Mayotte"/>
+                    <StringItem index="143" value="MX || Mexico"/>
+                    <StringItem index="144" value="FM || Micronesia (Federated States of)"/>
+                    <StringItem index="145" value="MD || Moldova (Republic of)"/>
+                    <StringItem index="146" value="MC || Monaco"/>
+                    <StringItem index="147" value="MN || Mongolia"/>
+                    <StringItem index="148" value="ME || Montenegro"/>
+                    <StringItem index="149" value="MS || Montserrat"/>
+                    <StringItem index="150" value="MA || Morocco"/>
+                    <StringItem index="151" value="MZ || Mozambique"/>
+                    <StringItem index="152" value="MM || Myanmar"/>
+                    <StringItem index="153" value="NA || Namibia"/>
+                    <StringItem index="154" value="NR || Nauru"/>
+                    <StringItem index="155" value="NP || Nepal"/>
+                    <StringItem index="156" value="NL || Netherlands"/>
+                    <StringItem index="157" value="NC || New Caledonia"/>
+                    <StringItem index="158" value="NZ || New Zealand"/>
+                    <StringItem index="159" value="NI || Nicaragua"/>
+                    <StringItem index="160" value="NE || Niger"/>
+                    <StringItem index="161" value="NG || Nigeria"/>
+                    <StringItem index="162" value="NU || Niue"/>
+                    <StringItem index="163" value="NF || Norfolk Island"/>
+                    <StringItem index="164" value="MP || Northern Mariana Islands"/>
+                    <StringItem index="165" value="NO || Norway"/>
+                    <StringItem index="166" value="OM || Oman"/>
+                    <StringItem index="167" value="PK || Pakistan"/>
+                    <StringItem index="168" value="PW || Palau"/>
+                    <StringItem index="169" value="PS || Palestine, State of"/>
+                    <StringItem index="170" value="PA || Panama"/>
+                    <StringItem index="171" value="PG || Papua New Guinea"/>
+                    <StringItem index="172" value="PY || Paraguay"/>
+                    <StringItem index="173" value="PE || Peru"/>
+                    <StringItem index="174" value="PH || Philippines"/>
+                    <StringItem index="175" value="PN || Pitcairn"/>
+                    <StringItem index="176" value="PL || Poland"/>
+                    <StringItem index="177" value="PT || Portugal"/>
+                    <StringItem index="178" value="PR || Puerto Rico"/>
+                    <StringItem index="179" value="QA || Qatar"/>
+                    <StringItem index="180" value="RE || R&#xe9;union"/>
+                    <StringItem index="181" value="RO || Romania"/>
+                    <StringItem index="182" value="RU || Russian Federation"/>
+                    <StringItem index="183" value="RW || Rwanda"/>
+                    <StringItem index="184" value="BL || Saint Barth&#xe9;lemy"/>
+                    <StringItem index="185" value="SH || Saint Helena, Ascension and Tristan da Cunha"/>
+                    <StringItem index="186" value="KN || Saint Kitts and Nevis"/>
+                    <StringItem index="187" value="LC || Saint Lucia"/>
+                    <StringItem index="188" value="MF || Saint Martin (French part)"/>
+                    <StringItem index="189" value="PM || Saint Pierre and Miquelon"/>
+                    <StringItem index="190" value="VC || Saint Vincent and the Grenadines"/>
+                    <StringItem index="191" value="WS || Samoa"/>
+                    <StringItem index="192" value="SM || San Marino"/>
+                    <StringItem index="193" value="ST || Sao Tome and Principe"/>
+                    <StringItem index="194" value="SA || Saudi Arabia"/>
+                    <StringItem index="195" value="SN || Senegal"/>
+                    <StringItem index="196" value="RS || Serbia"/>
+                    <StringItem index="197" value="SC || Seychelles"/>
+                    <StringItem index="198" value="SL || Sierra Leone"/>
+                    <StringItem index="199" value="SG || Singapore"/>
+                    <StringItem index="200" value="SX || Sint Maarten (Dutch part)"/>
+                    <StringItem index="201" value="SK || Slovakia"/>
+                    <StringItem index="202" value="SI || Slovenia"/>
+                    <StringItem index="203" value="SB || Solomon Islands"/>
+                    <StringItem index="204" value="SO || Somalia"/>
+                    <StringItem index="205" value="ZA || South Africa"/>
+                    <StringItem index="206" value="GS || South Georgia and the South Sandwich Islands"/>
+                    <StringItem index="207" value="SS || South Sudan"/>
+                    <StringItem index="208" value="ES || Spain"/>
+                    <StringItem index="209" value="LK || Sri Lanka"/>
+                    <StringItem index="210" value="SD || Sudan"/>
+                    <StringItem index="211" value="SR || Suriname"/>
+                    <StringItem index="212" value="SJ || Svalbard and Jan Mayen"/>
+                    <StringItem index="213" value="SZ || Swaziland"/>
+                    <StringItem index="214" value="SE || Sweden"/>
+                    <StringItem index="215" value="CH || Switzerland"/>
+                    <StringItem index="216" value="SY || Syrian Arab Republic"/>
+                    <StringItem index="217" value="TW || Taiwan, Province of China"/>
+                    <StringItem index="218" value="TJ || Tajikistan"/>
+                    <StringItem index="219" value="TZ || Tanzania, United Republic of"/>
+                    <StringItem index="220" value="TH || Thailand"/>
+                    <StringItem index="221" value="TL || Timor-Leste"/>
+                    <StringItem index="222" value="TG || Togo"/>
+                    <StringItem index="223" value="TK || Tokelau"/>
+                    <StringItem index="224" value="TO || Tonga"/>
+                    <StringItem index="225" value="TT || Trinidad and Tobago"/>
+                    <StringItem index="226" value="TN || Tunisia"/>
+                    <StringItem index="227" value="TR || Turkey"/>
+                    <StringItem index="228" value="TM || Turkmenistan"/>
+                    <StringItem index="229" value="TC || Turks and Caicos Islands"/>
+                    <StringItem index="230" value="TV || Tuvalu"/>
+                    <StringItem index="231" value="UG || Uganda"/>
+                    <StringItem index="232" value="UA || Ukraine"/>
+                    <StringItem index="233" value="AE || United Arab Emirates"/>
+                    <StringItem index="234" value="GB || United Kingdom of Great Britain and Northern Ireland"/>
+                    <StringItem index="235" value="US || United States of America"/>
+                    <StringItem index="236" value="UM || United States Minor Outlying Islands"/>
+                    <StringItem index="237" value="UY || Uruguay"/>
+                    <StringItem index="238" value="UZ || Uzbekistan"/>
+                    <StringItem index="239" value="VU || Vanuatu"/>
+                    <StringItem index="240" value="VE || Venezuela (Bolivarian Republic of)"/>
+                    <StringItem index="241" value="VN || Viet Nam"/>
+                    <StringItem index="242" value="VG || Virgin Islands (British)"/>
+                    <StringItem index="243" value="VI || Virgin Islands (U.S.)"/>
+                    <StringItem index="244" value="WF || Wallis and Futuna"/>
+                    <StringItem index="245" value="EH || Western Sahara"/>
+                    <StringItem index="246" value="YE || Yemen"/>
+                    <StringItem index="247" value="ZM || Zambia"/>
+                    <StringItem index="248" value="ZW || Zimbabwe"/>
+                    <StringItem index="249" value=" "/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pick-up: date  (YYYY-MM-DD)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldpickUpDate">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldpickUpDateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Time(hh:mm:ss)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldPickUpTime">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="delivery: date (YYYY-MM-DD)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldDeliveryDate">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Time(hh:mm:ss)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldDeliveryTime">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delivery conditions:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxCountry3">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="11">
+            <StringItem index="0" value="EXW (EX-Works)"/>
+            <StringItem index="1" value="FOB (Free On Board)"/>
+            <StringItem index="2" value="FCA (Free Carrier)"/>
+            <StringItem index="3" value="FAS (Free Alongside Ship)"/>
+            <StringItem index="4" value="CFR (Cost and Freight)"/>
+            <StringItem index="5" value="CIF (Cost, Insurance and Freight)"/>
+            <StringItem index="6" value="CPT (Carriage Paid To)"/>
+            <StringItem index="7" value="CIP (Carriage and Insurance Paid To)"/>
+            <StringItem index="8" value="DAT (Delivered At Terminal)"/>
+            <StringItem index="9" value="DAP (Delivered At Place)"/>
+            <StringItem index="10" value="DDP (Delivered Duty Paid)"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonInsertOrder">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Insert Order"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonInsertOrderActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
